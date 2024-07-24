@@ -1,11 +1,14 @@
-# Whale Talk
+# Vowel Extractor
 
-Take a phrase like ‘turpentine and turtles’ and translate it into its “whale talk” equivalent: ‘UUEEIEEAUUEE’.
+A JavaScript application that extracts vowels from an input text, modifies certain vowels, and displays the result on the web page.
 
-There are a few simple rules for translating text to whale language:
+## Introduction
 
-There are no consonants. Only vowels excluding “y”.
-The u‘s and e‘s are extra long, so we must double them in our program.
-Once we have converted text to the whale language, the result is sung slowly, as is a custom in the ocean.
+The Vowel Extractor project allows users to input text, extracts all the vowels from the text, and modifies certain vowels ('e' to 'ee' and 'u' to 'uu'). The modified vowels are then displayed in uppercase on the web page.
 
-To accomplish this translation, we can use our knowledge of loops. Let’s get started!
+## Features
+
+- Input field for the user's text.
+- Extracts vowels from the input text.
+- Modifies 'e' to 'ee' and 'u' to 'uu'.
+- Displays the modified vowels in uppercase.
